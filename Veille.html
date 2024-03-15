@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portefolio - Menial Hugo</title>
+    <link rel="icon" type="image/png" href="assets/icons/logo.png" />
+    <link rel="stylesheet" href="./assets/css/veille.css" />
+    <link rel="stylesheet" href="./assets/css/navbar.css" />
+    <link rel="stylesheet" href="./assets/css/scrollbar.css" />
+    <link rel="stylesheet" href="./assets/css/profileCard.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Background Image-->
+
+  
+    <div class="bg-img0"></div>
+
+
+    <!--NavBar (Responsive)-->
+
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bx-terminal icon"></i>
+        <a href="./index.html" style="text-decoration: none;">
+        <div class="logo_name">Portefolio</div>
+      </a>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li onclick="profileCard()">
+          <a href="#">
+            <i class="bx bx-user"></i>
+            <span class="links_name">Profile</span>
+          </a>
+          <span class="tooltip">Profile</span>
+        </li>
+        <li>
+          <a href="./Competences.html">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links_name">Compétences</span>
+          </a>
+          <span class="tooltip">Compétences</span>
+        </li>
+        <li>
+          <a href="./Projet.html">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">Project</span>
+          </a>
+          <span class="tooltip">Project</span>
+        </li>
+        <li>
+          <a href="./Veille.html">
+            <i class="bx bxs-detail"></i>
+            <span class="links_name">Veille</span>
+          </a>
+          <span class="tooltip">Veille</span>
+        </li>
+        <li>
+          <a href="./contact.html">
+            <i class="bx bxs-contact"></i>
+            <span class="links_name">Contact</span>
+          </a>
+          <span class="tooltip">Contact</span>
+        </li>
+        <li class="profile">
+          <div class="profile-details">
+            <div class="name_job">
+              <div class="name">Menial Hugo</div>
+              <div class="job">Student</div>
+            </div>
+          </div>
+          <i
+            class="bx bxs-user-circle"
+            id="profile"
+            onclick="profileCard()"
+          ></i>
+        </li>
+      </ul>
+    </div>
+
+    <!--Profile Card-->
+
+    <div
+      style="display: none"
+      id="profileCard"
+      class="card-container home-section"
+    >
+      <img class="round" src="./assets/img/profile.jfif" alt="user" />
+      <h3>Hugo Menial</h3>
+      <h6 style="font-size: 15px">Bapaume | Cambrai | Arras</h6>
+      <p>
+        Student<br />
+        network Administrator <br />
+        Web Developer
+      </p>
+      <div class="buttons">
+        <button id="btnCV" href="./assets/Hugo Menial CV.pdf" class="primary">CV</button>
+      </div>
+      <!--Scrypt lien CV-->
+      <script>
+        document.getElementById('btnCV').addEventListener('click', function() {
+            window.location.href = './assets/Hugo Menial CV.pdf';
+        });
+    </script>
+    <!-- FIN Scrypt lien CV-->
+      <div class="footerCard">
+        <h6>Compétances</h6>
+        <ul>
+          <li>Switching</li>
+          <li>Routing</li>
+          <li>PRTG Supervision</li>
+          <li>Windows Server</li>
+          <li>Solutions BackUp</li>
+          <li>BYOD</li>
+        </ul>
+      </div>
+      <div style="margin-top: -30px" class="footerCardContact">
+        <h6>Contact</h6>
+        <ul>
+          <li>
+            <a style="color: grey" href="https://github.com/ZeenD_"
+              ><i class="bx bxl-github iconContact"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              style="color: grey"
+              href="https://fr.linkedin.com/in/hugo-menial-0b889a215/"
+              ><i class="bx bxl-linkedin-square iconContact"></i
+            ></a>
+          </li>
+          <li>
+            <a style="color: grey"
+              ><i class="bx bxl-discord iconContact"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Text Index-->
+
+    <div class="cases">
+      <div class="circle"><p>Intelligence artificielle</p>
+        <div class="icon"><i class="fa-solid fa-robot"></i></div><!--icon robot-->
+       <div class="fleche"> <a href="./veille/ia.html"> <i class="fi-xwsrxl-arrow-solid"></i></a>
+      </div></div>
+      <div class="circle"><p>Cloud computing</p><div class="icon"><i class="fa-solid fa-cloud"></i></div><!--icon cloud--><div class="fleche"> <a href="./veille/cloud.html"> <i class="fi-xwsrxl-arrow-solid"></i></a>
+      </div></div>
+      <div class="circle"><p>Développement web</p><div class="icon"><i class="fa-solid fa-code"></i></i></div><!--icon code--><div class="fleche"> <a href="./veille/dev.html"> <i class="fi-xwsrxl-arrow-solid"></i></a>
+      </div></div>
+      <div class="circle"><p>Sécurité informatique</p><div class="icon"><i class="fa-solid fa-user-shield"></i></div><!--icon bouclier--><div class="fleche"><a href="./veille/securite.html"> <i class="fi-xwsrxl-arrow-solid"></i></a>
+      </div></div>
+      <div class="circle"><p>Éthique informatique</p><div class="icon"><i class="fa-solid fa-scale-unbalanced-flip"></i></div><!--icon etique--><div class="fleche"><a href="./veille/ethique.html"> <i class="fi-xwsrxl-arrow-solid"></i></a>
+      </div></div>
+    </div>
+      
+  
+
+
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <script src="./assets/JS/navbar.js"></script>
+    <script src="./assets/JS/typed.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+body {
+
+  background-position: 300px 0;
+  background-size: contain;
+  background-size: 90%;
+}
+
+body {
+  font-family: "Uni Sans Demo", sans-serif;
+  background-color: #363434;
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+body handheld {
+  background-color: #d9dade;
+}
+
+img,
+table,
+td,
+blockquote,
+code,
+pre,
+textarea,
+input,
+iframe,
+object,
+embed,
+video {
+  max-width: 100%;
+}
+
+
+#myVideo {
+  position: absolute;
+  margin-top: -10;
+  margin-bottom: -10;
+  margin-left: -10;
+  margin-right: -10;
+}
+/*-----------*/
+/*   Texte   */
+/*-----------*/
+
+.container {
+  font-size: 35px;
+  margin-left: 5%;
+  padding-top: 8%;
+}
+
+
+
+.type {
+  font-size: 5vh;
+  position: absolute;
+}

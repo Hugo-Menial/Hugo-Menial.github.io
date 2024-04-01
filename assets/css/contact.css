@@ -1,5 +1,5 @@
 body {
-  background-image: url(../img/DALL\ E\ contact.png);
+  background-image: url(../img/bg-img1.webp);
   background-position: 100px 0;
   background-size: contain;
   background-size: 90%;
@@ -107,7 +107,7 @@ form .title {
   font-size: 2.5rem;
   /*ajout*/
   /* Ajout d'une ombre au texte */
-  text-shadow: 2px 2px 4px #8a7c00;  /* Noir avec un léger flou */
+  text-shadow: 2px 2px 4px rgb(255, 174, 53);  /* Noir avec un léger flou */
 
   /* Ajout d'une bordure */
   padding: 5px; /* Un peu d'espace autour du texte */

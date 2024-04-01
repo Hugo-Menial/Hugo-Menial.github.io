@@ -72,16 +72,16 @@ body {
   }
   
   .projet-b {
-    background: center url('../img/FOG.jpg');
+    background: center url('../img/FOG.webp');
     background-size: cover;
   }
   
   .projet-c {
-    background: center url('../img/Routage.png');
+    background: center url('../img/Routage.webp');
   }
   
   .projet-d {
-    background: center url('../img/switching.jpeg');
+    background: center url('../img/switching.webp');
     background-size: cover;
   }
   .projet-e {
@@ -89,7 +89,7 @@ body {
     background-size: cover;
   }
   .projet-f {
-    background: center url('../img/supervision.jpeg');
+    background: center url('../img/supervision.webp');
     background-size: cover;
   }
   .projet-g {
@@ -97,7 +97,7 @@ body {
     background-size: cover;
   }
   .projet-h {
-    background: center url('../img/ownNextCloud.jpg');
+    background: center url('../img/ownNextCloud.webp');
     background-size: cover;
   }
   .projet-i {
@@ -124,7 +124,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image:url("../img/planetbackground.jpg");
+    background-image:url("../img/bg-img1.webp");
     background-position: center;
     background-repeat: no-repeat;
   }

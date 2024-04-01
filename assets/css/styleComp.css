@@ -60,3 +60,46 @@ video {
   font-size: 5vh;
   position: absolute;
 }
+
+/*TABLEAUX DE COMP*/
+
+
+.image-container {
+  position: fixed;
+  bottom: 15%;
+  right: 12%;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.image {
+  max-width: 100%; /* Responsive width */
+  max-height: 20vh;
+  object-fit: cover; /* Maintain aspect ratio */
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.image:hover {
+  filter: blur(2px);
+}
+
+.bouton-telechargement {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px; /* Margin for spacing */
+  display: none;
+  z-index: 101;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  transition: 0.3s ease-in-out;
+}
+
+.image:hover .bouton-telechargement {
+  display: block;
+}
+

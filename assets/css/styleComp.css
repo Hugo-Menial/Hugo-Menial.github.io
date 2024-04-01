@@ -67,7 +67,7 @@ video {
 .image-container {
   position: fixed;
   bottom: 15%;
-  right: 12%;
+  right: 5%;
   z-index: 100;
   display: flex;
   justify-content: flex-end;
@@ -76,7 +76,7 @@ video {
 
 .image {
   max-width: 100%; /* Responsive width */
-  max-height: 20vh;
+  max-height: 25vh;
   object-fit: cover; /* Maintain aspect ratio */
   transition: 0.3s ease-in-out;
   border-radius: 20px;
@@ -85,21 +85,24 @@ video {
 .image:hover {
   filter: blur(2px);
 }
-
 .bouton-telechargement {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 10px; /* Margin for spacing */
-  display: none;
-  z-index: 101;
+  position: absolute; /* Positioned absolutely within the image */
+  top: 50%; /* Vertical centering */
+  left: 50%; /* Horizontal centering */
+  transform: translate(-50%, -50%); /* Center the button relative to its own position */
+  margin: 0; /* Remove margin for better centering */
+  display: block;
+  z-index: 105;
   border: none;
-  color: rgb(0, 0, 0);
-  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-size: 3vh;
+  background-color: rgb(255, 166, 0); /* Semi-transparent white background */
+  padding: 10px 20px; /* Padding for spacing within the button */
+  border-radius: 20px; /* Rounded corners for the button */
   transition: 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .image:hover .bouton-telechargement {
   display: block;
 }
-

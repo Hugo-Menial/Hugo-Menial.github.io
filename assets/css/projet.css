@@ -65,43 +65,48 @@ body {
   .projet:hover {
     opacity: .7;
   }
-  
+  /*1*/
   .projet-a {
     background: center url('../img/glpi.webp');
     background-size: cover;
   }
-  
+  /*7*/
   .projet-b {
     background: center url('../img/pfsense.webp');
     background-size: cover;
   }
-  
+  /*3*/
   .projet-c {
     background: center url('../img/switching.webp');
   }
-  
+  /*2*/
   .projet-d {
-    background: center url('../img/switching.webp');
+    background: center url('../img/pfsense.webp');
     background-size: cover;
   }
+  /*5*/
   .projet-e {
     background: center url('../img/fond4.png');
     background-size: cover;
   }
+/*8*/
   .projet-f {
-    background: center url('../img/supervision.webp');
+    background: center url('../img/linux.webp');
     background-size: cover;
   }
+/*4*/
   .projet-g {
     background: center url('../img/glpi.webp');
     background-size: cover;
   }
+/*5*/
   .projet-h {
     background: center url('../img/ownNextCloud.webp');
     background-size: cover;
   }
+/*6*/
   .projet-i {
-    background: center url('../img/linux.webp');
+    background: center url('../img/supervision.webp');
     background-size: cover;
   }
   

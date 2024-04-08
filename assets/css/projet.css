@@ -72,12 +72,12 @@ body {
   }
   
   .projet-b {
-    background: center url('../img/FOG.webp');
+    background: center url('../img/pfsense.webp');
     background-size: cover;
   }
   
   .projet-c {
-    background: center url('../img/Routage.webp');
+    background: center url('../img/switching.webp');
   }
   
   .projet-d {
@@ -93,7 +93,7 @@ body {
     background-size: cover;
   }
   .projet-g {
-    background: center url('../img/pfsense.webp');
+    background: center url('../img/glpi.webp');
     background-size: cover;
   }
   .projet-h {
